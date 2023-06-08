@@ -1,0 +1,22 @@
+{
+    "mailjet": {
+        "public_api_key": "<Your MailJet Public API Key>",
+        "private_api_key": "<Your MailJet Private API Key>"
+    },
+    "mail": {
+        "from": {
+            "address": "your-address@yourdomain.com",
+            "name": "<Your name>"
+        },
+        "to": [
+            {
+                "address": "your-address-1@yourdomain.com",
+                "name": "<Your name>"
+            },
+            {
+                "address": "your-address-2@yourdomain.com",
+                "name": "<Your name>"
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "email-templates",
+  "version": "1.0.0",
+  "description": "project to create MJML to HTML email templates",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp --env=production",
+    "dev": "gulp watch",
+    "send": "gulp send"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "gulp": "^4.0.2",
+    "gulp-mjml": "^4.0.2",
+    "mjml": "^4.14.1",
+    "mjml-react": "^2.0.8",
+    "node-mailjet": "^3.3.1",
+    "yargs": "^17.7.2"
+  }
+}
